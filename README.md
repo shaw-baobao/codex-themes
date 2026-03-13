@@ -47,6 +47,31 @@ If the Codex import format changes in the future, contributors should still edit
 
 Note: `codeThemeId` is not arbitrary. It must match a built-in Codex code theme id such as `tokyo-night`, `one-dark`, `nord`, `dracula`, `catppuccin`, `gruvbox`, `solarized`, or `github-light`.
 
+## Import in Codex App
+
+Use the generated `import.txt` file for the theme you want.
+
+1. Open `Settings > Appearance` in Codex App.
+2. Choose `Import` in the `Light theme` section for light themes.
+3. Choose `Import` in the `Dark theme` section for dark themes.
+4. Open the theme's `import.txt` file in this repository.
+5. Copy the entire line, starting with `codex-theme-v1:`.
+6. Paste it into the import dialog.
+7. Confirm the import.
+
+Examples:
+
+- [`themes/tokyo-night/import.txt`](./themes/tokyo-night/import.txt)
+- [`themes/github-light/import.txt`](./themes/github-light/import.txt)
+- [`themes/catppuccin-mocha/import.txt`](./themes/catppuccin-mocha/import.txt)
+
+Common import failures:
+
+- copying only the JSON body and not the `codex-theme-v1:` prefix
+- pasting extra whitespace or line breaks
+- importing a dark theme into the light theme slot, or the reverse
+- using a `codeThemeId` that is not built into Codex App
+
 ## Repository layout
 
 ```text

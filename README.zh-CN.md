@@ -2,42 +2,13 @@
 
 # Codex Themes
 
-为 Codex App 提供可直接导入的精选主题，包含统一预览图和生成好的导入串。
+为 Codex App 提供可直接导入的精选主题。
 
-这个项目参考了两个现有主题仓库的思路：
+每个主题目录包含：
 
-- [`tursunovic/xcode-themes`](https://github.com/tursunovic/xcode-themes)：仓库要直观、好浏览、上手快。
-- [`mjswensen/themer`](https://github.com/mjswensen/themer)：主题源格式要归仓库自己维护，方便后续持续生成。
-
-第一版刻意保持克制：
-
-- 只做 Codex App 主题
-- 每个主题只有一个规范的 `theme.json`
-- 自动生成 `preview.svg`
-- 自动生成 `import.txt`
-- 自动生成 `themes/index.json`
-- 优先保证 GitHub 上浏览体验
-
-## 为什么做这个仓库
-
-很多主题仓库最后会走向两个极端：
-
-1. 只是堆文件，没有质量门槛。
-2. 过早做成平台，维护成本很快失控。
-
-`codex-themes` 取中间路线：
-
-- 足够简单，方便贡献
-- 足够结构化，方便自动化
-- 足够可视化，方便在 GitHub 上挑主题
-
-## MVP 范围
-
-当前 MVP 只支持一种主题类型：
-
-- `app`：Codex App 外观主题
-
-CLI 语法高亮主题以后可以再加，但第一版先不做，避免 schema、文档和贡献流程一开始就变复杂。
+- `theme.json`：主题源定义
+- `preview.svg`：生成的预览图
+- `import.txt`：生成的导入串
 
 ## 安装主题
 
@@ -207,35 +178,3 @@ npm run build
 4. 提交 Pull Request
 
 详细说明见 [`CONTRIBUTING.md`](./CONTRIBUTING.md)。
-
-## 路线图
-
-### Phase 1
-
-- 建立稳定的 app 主题 schema
-- 收集 8 到 12 个高质量主题
-- 保持统一预览图风格
-- 降低贡献审查成本
-
-### Phase 2
-
-- 增强 schema 校验
-- 增加更多预览自动化
-- 补 GitHub Pages 展示页
-
-### Phase 3
-
-- 评估 Codex CLI 主题支持
-- 增加第三方主题格式转换
-- 增加基于网页的浏览和复制流程
-
-## 参考项目
-
-- [`tursunovic/xcode-themes`](https://github.com/tursunovic/xcode-themes)
-- [`mjswensen/themer`](https://github.com/mjswensen/themer)
-
-推荐路线是：
-
-1. 先用 `xcode-themes` 那种 gallery-first 的体验
-2. 内部结构保持 `themer` 那种 schema-first
-3. 等 curated repository 站稳以后，再考虑生成器或网站

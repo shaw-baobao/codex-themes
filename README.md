@@ -2,42 +2,13 @@
 
 # Codex Themes
 
-Curated themes for Codex App, with preview assets and generated import strings.
+Curated themes for Codex App.
 
-This project borrows two ideas from existing theme projects:
+Each theme folder contains:
 
-- [`tursunovic/xcode-themes`](https://github.com/tursunovic/xcode-themes): keep the repository visual, simple, and easy to browse.
-- [`mjswensen/themer`](https://github.com/mjswensen/themer): keep a repository-owned source schema so generated files can evolve safely.
-
-The first public version stays intentionally small:
-
-- Codex App themes only
-- one canonical `theme.json` per theme
-- generated `preview.svg` files
-- generated `import.txt` files
-- generated `themes/index.json`
-- GitHub-first preview gallery
-
-## Why this repo exists
-
-Theme repositories usually fail in one of two ways:
-
-1. They become a folder dump with no quality bar.
-2. They become a generator platform too early and get hard to maintain.
-
-`codex-themes` starts in the middle:
-
-- simple enough to contribute to
-- structured enough to automate
-- visual enough to browse on GitHub
-
-## MVP scope
-
-The MVP supports one theme type:
-
-- `app`: themes for Codex App UI appearance
-
-CLI syntax themes can be added later, but they are intentionally out of scope for the initial release. That keeps the schema, documentation, and contribution flow straightforward.
+- `theme.json`: source definition
+- `preview.svg`: generated preview
+- `import.txt`: generated import payload
 
 ## Install a theme
 
@@ -206,35 +177,3 @@ The generated import payload uses the Codex App import shape:
 4. Open a pull request
 
 See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for details.
-
-## Roadmap
-
-### Phase 1
-
-- establish the app-theme schema
-- collect 8 to 12 high-quality themes
-- keep previews visually consistent
-- make contribution review easy
-
-### Phase 2
-
-- add stronger schema validation
-- add more preview automation
-- add GitHub Pages gallery
-
-### Phase 3
-
-- evaluate Codex CLI theme support
-- add conversion pipelines from third-party theme formats
-- add web-based browsing and copy flow
-
-## Prior art
-
-- [`tursunovic/xcode-themes`](https://github.com/tursunovic/xcode-themes)
-- [`mjswensen/themer`](https://github.com/mjswensen/themer)
-
-The recommended strategy is:
-
-1. Start with the gallery-first usability of `xcode-themes`
-2. Keep the schema-first internals inspired by `themer`
-3. Only add generators or a website after the curated repository feels solid

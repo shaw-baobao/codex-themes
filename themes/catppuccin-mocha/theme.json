@@ -6,13 +6,19 @@
   "mode": "dark",
   "tags": ["dark", "pastel", "mocha"],
   "description": "Catppuccin Mocha adapted for Codex App with pastel accents and soft contrast.",
-  "codeThemeId": "catppuccin-mocha",
+  "codeThemeId": "catppuccin",
   "theme": {
     "accent": "#89b4fa",
     "background": "#1e1e2e",
     "foreground": "#cdd6f4",
     "surface": "#313244",
     "contrast": 46,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#a6e3a1",
+      "diffRemoved": "#f38ba8",
+      "skill": "#cba6f7"
+    },
     "fonts": {
       "ui": "SF Pro Text",
       "code": "SF Mono"

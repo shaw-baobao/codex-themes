@@ -6,13 +6,19 @@
   "mode": "dark",
   "tags": ["dark", "warm", "retro"],
   "description": "Gruvbox Dark adapted for Codex App with warm contrast and earthy tones.",
-  "codeThemeId": "gruvbox-dark",
+  "codeThemeId": "gruvbox",
   "theme": {
     "accent": "#d79921",
     "background": "#282828",
     "foreground": "#ebdbb2",
     "surface": "#3c3836",
     "contrast": 61,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#98971a",
+      "diffRemoved": "#cc241d",
+      "skill": "#b16286"
+    },
     "fonts": {
       "ui": "SF Pro Text",
       "code": "SF Mono"

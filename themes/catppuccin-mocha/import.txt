@@ -1,1 +1,1 @@
-codex-theme-v1:{"codeThemeId":"catppuccin-mocha","theme":{"accent":"#89b4fa","background":"#1e1e2e","foreground":"#cdd6f4","surface":"#313244","contrast":46,"fonts":{"ui":"SF Pro Text","code":"SF Mono"}}}
+codex-theme-v1:{"codeThemeId":"catppuccin","theme":{"accent":"#89b4fa","contrast":46,"fonts":{"ui":"SF Pro Text","code":"SF Mono"},"ink":"#cdd6f4","opaqueWindows":false,"semanticColors":{"diffAdded":"#a6e3a1","diffRemoved":"#f38ba8","skill":"#cba6f7"},"surface":"#313244"},"variant":"dark"}

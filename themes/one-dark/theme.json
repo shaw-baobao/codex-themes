@@ -13,6 +13,12 @@
     "foreground": "#abb2bf",
     "surface": "#353b45",
     "contrast": 41,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#98c379",
+      "diffRemoved": "#e06c75",
+      "skill": "#c678dd"
+    },
     "fonts": {
       "ui": "SF Pro Text",
       "code": "SF Mono"

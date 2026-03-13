@@ -96,6 +96,16 @@
               "minLength": 1
             }
           }
+        },
+        "opaqueWindows": {
+          "type": "boolean"
+        },
+        "semanticColors": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^#[0-9a-fA-F]{6}$"
+          }
         }
       }
     }

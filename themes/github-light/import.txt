@@ -1,1 +1,1 @@
-codex-theme-v1:{"codeThemeId":"github-light","theme":{"accent":"#0969da","background":"#ffffff","foreground":"#1f2328","surface":"#f6f8fa","contrast":18,"fonts":{"ui":"SF Pro Text","code":"SF Mono"}}}
+codex-theme-v1:{"codeThemeId":"github-light","theme":{"accent":"#0969da","contrast":18,"fonts":{"ui":"SF Pro Text","code":"SF Mono"},"ink":"#1f2328","opaqueWindows":false,"semanticColors":{"diffAdded":"#1a7f37","diffRemoved":"#cf222e","skill":"#8250df"},"surface":"#f6f8fa"},"variant":"light"}

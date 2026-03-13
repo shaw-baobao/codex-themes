@@ -6,13 +6,19 @@
   "mode": "light",
   "tags": ["light", "classic", "muted"],
   "description": "Solarized Light adapted for Codex App with warm neutrals and restrained contrast.",
-  "codeThemeId": "solarized-light",
+  "codeThemeId": "solarized",
   "theme": {
     "accent": "#268bd2",
     "background": "#fdf6e3",
     "foreground": "#586e75",
     "surface": "#eee8d5",
     "contrast": 22,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#859900",
+      "diffRemoved": "#dc322f",
+      "skill": "#6c71c4"
+    },
     "fonts": {
       "ui": "SF Pro Text",
       "code": "SF Mono"

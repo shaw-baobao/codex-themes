@@ -1,1 +1,1 @@
-codex-theme-v1:{"codeThemeId":"gruvbox-dark","theme":{"accent":"#d79921","background":"#282828","foreground":"#ebdbb2","surface":"#3c3836","contrast":61,"fonts":{"ui":"SF Pro Text","code":"SF Mono"}}}
+codex-theme-v1:{"codeThemeId":"gruvbox","theme":{"accent":"#d79921","contrast":61,"fonts":{"ui":"SF Pro Text","code":"SF Mono"},"ink":"#ebdbb2","opaqueWindows":false,"semanticColors":{"diffAdded":"#98971a","diffRemoved":"#cc241d","skill":"#b16286"},"surface":"#3c3836"},"variant":"dark"}

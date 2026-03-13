@@ -45,6 +45,8 @@ CLI syntax themes can be added later, but they are intentionally out of scope fo
 
 If the Codex import format changes in the future, contributors should still edit `theme.json`; the generated files can then be rebuilt by updating the scripts.
 
+Note: `codeThemeId` is not arbitrary. It must match a built-in Codex code theme id such as `tokyo-night`, `one-dark`, `nord`, `dracula`, `catppuccin`, `gruvbox`, `solarized`, or `github-light`.
+
 ## Repository layout
 
 ```text
@@ -150,6 +152,15 @@ Each theme owns one human-readable source file:
 The generated `preview.svg` and `import.txt` files are derived from this file and should not be edited by hand.
 
 See [`docs/schema.md`](./docs/schema.md) and [`schemas/theme.schema.json`](./schemas/theme.schema.json) for the full shape.
+
+The generated import payload uses the Codex App import shape:
+
+- `mode` is exported as top-level `variant`
+- `theme.foreground` is exported as `theme.ink`
+- `theme.surface` is exported as `theme.surface`
+- `theme.background` stays internal for preview generation
+- `theme.opaqueWindows` defaults to `false` when omitted
+- `theme.semanticColors` gets generated defaults when omitted
 
 ## Contribution flow
 

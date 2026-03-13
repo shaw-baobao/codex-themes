@@ -4,6 +4,26 @@ const path = require("node:path");
 const rootDir = path.resolve(__dirname, "..", "..");
 const themesDir = path.join(rootDir, "themes");
 const generatedPreviewFile = "preview.svg";
+const supportedCodeThemeIds = new Set([
+  "absolutely",
+  "ayu",
+  "catppuccin",
+  "codex",
+  "dracula",
+  "everforest",
+  "github",
+  "github-light",
+  "gruvbox",
+  "material",
+  "monokai",
+  "night-owl",
+  "nord",
+  "one-dark",
+  "poimandres",
+  "rose-pine",
+  "solarized",
+  "tokyo-night"
+]);
 
 function getThemeSlugs() {
   if (!fs.existsSync(themesDir)) {
@@ -76,6 +96,10 @@ function validateThemeEntry(entry) {
     errors.push(`tags must be a non-empty array`);
   }
 
+  if (!supportedCodeThemeIds.has(data.codeThemeId)) {
+    errors.push(`codeThemeId must be one of the supported Codex code theme ids`);
+  }
+
   const theme = data.theme || {};
   const requiredColors = ["accent", "background", "foreground"];
 
@@ -97,13 +121,47 @@ function validateThemeEntry(entry) {
     errors.push(`theme.fonts.ui and theme.fonts.code must be strings`);
   }
 
+  if ("opaqueWindows" in theme && typeof theme.opaqueWindows !== "boolean") {
+    errors.push(`theme.opaqueWindows must be a boolean`);
+  }
+
+  if ("semanticColors" in theme) {
+    const semanticColors = theme.semanticColors;
+
+    if (!semanticColors || typeof semanticColors !== "object" || Array.isArray(semanticColors)) {
+      errors.push(`theme.semanticColors must be an object`);
+    } else {
+      for (const [key, value] of Object.entries(semanticColors)) {
+        if (!isHexColor(value)) {
+          errors.push(`theme.semanticColors.${key} must be a 6-digit hex color`);
+        }
+      }
+    }
+  }
+
   return errors;
 }
 
 function getImportPayload(theme) {
+  const sourceTheme = theme.theme;
+  const importTheme = {
+    accent: sourceTheme.accent,
+    contrast: sourceTheme.contrast,
+    fonts: sourceTheme.fonts,
+    ink: sourceTheme.foreground,
+    opaqueWindows: sourceTheme.opaqueWindows ?? false,
+    semanticColors: sourceTheme.semanticColors ?? {
+      diffAdded: theme.mode === "dark" ? "#4ade80" : "#16a34a",
+      diffRemoved: theme.mode === "dark" ? "#f87171" : "#dc2626",
+      skill: sourceTheme.accent
+    },
+    surface: sourceTheme.surface || sourceTheme.background
+  };
+
   return {
     codeThemeId: theme.codeThemeId,
-    theme: theme.theme
+    theme: importTheme,
+    variant: theme.mode
   };
 }
 
@@ -140,5 +198,6 @@ module.exports = {
   getImportString,
   getThemeIndexRecord,
   rootDir,
+  supportedCodeThemeIds,
   themesDir
 };

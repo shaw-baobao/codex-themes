@@ -18,6 +18,7 @@
 - `accent`
 - `background`
 - `foreground`
+- `surface`
 - `contrast`
 - `fonts.ui`
 - `fonts.code`
@@ -25,10 +26,18 @@
 ## Optional fields
 
 - `description`
-- `theme.surface`
+- `theme.opaqueWindows`
+- `theme.semanticColors`
 
 ## Notes
 
 - The source file is the only file contributors should edit directly.
 - `preview.svg` and `import.txt` are generated from `theme.json`.
+- `codeThemeId` must match a Codex App built-in code theme id.
+- `import.txt` is generated as a Codex App compatible payload using:
+  - `mode -> variant`
+  - `theme.foreground -> theme.ink`
+  - `theme.surface || theme.background -> theme.surface`
+- If `theme.opaqueWindows` is omitted, it defaults to `false`.
+- If `theme.semanticColors` is omitted, build scripts generate safe defaults.
 - The repository may evolve the generated format later without forcing contributors to rewrite source theme data.

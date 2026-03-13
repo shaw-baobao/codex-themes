@@ -1,0 +1,1 @@
+codex-theme-v1:{"codeThemeId":"nord","theme":{"accent":"#88c0d0","background":"#2e3440","foreground":"#eceff4","surface":"#3b4252","contrast":43,"fonts":{"ui":"SF Pro Text","code":"SF Mono"}}}

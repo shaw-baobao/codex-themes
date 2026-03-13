@@ -1,0 +1,141 @@
+{
+  "generatedAt": "2026-03-13T06:11:13.251Z",
+  "themes": [
+    {
+      "name": "Catppuccin Mocha",
+      "slug": "catppuccin-mocha",
+      "author": "Catppuccin / Codex Themes",
+      "type": "app",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "pastel",
+        "mocha"
+      ],
+      "description": "Catppuccin Mocha adapted for Codex App with pastel accents and soft contrast.",
+      "preview": "themes/catppuccin-mocha/preview.svg",
+      "readme": "themes/catppuccin-mocha/README.md",
+      "source": "themes/catppuccin-mocha/theme.json",
+      "import": "themes/catppuccin-mocha/import.txt"
+    },
+    {
+      "name": "Dracula",
+      "slug": "dracula",
+      "author": "Dracula Theme / Codex Themes",
+      "type": "app",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "purple",
+        "neon"
+      ],
+      "description": "Dracula adapted for Codex App with vivid purple accents and high contrast.",
+      "preview": "themes/dracula/preview.svg",
+      "readme": "themes/dracula/README.md",
+      "source": "themes/dracula/theme.json",
+      "import": "themes/dracula/import.txt"
+    },
+    {
+      "name": "GitHub Light",
+      "slug": "github-light",
+      "author": "GitHub / Codex Themes",
+      "type": "app",
+      "mode": "light",
+      "tags": [
+        "light",
+        "clean",
+        "github"
+      ],
+      "description": "GitHub Light adapted for Codex App with a clean neutral palette.",
+      "preview": "themes/github-light/preview.svg",
+      "readme": "themes/github-light/README.md",
+      "source": "themes/github-light/theme.json",
+      "import": "themes/github-light/import.txt"
+    },
+    {
+      "name": "Gruvbox Dark",
+      "slug": "gruvbox-dark",
+      "author": "morhetz / Codex Themes",
+      "type": "app",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "warm",
+        "retro"
+      ],
+      "description": "Gruvbox Dark adapted for Codex App with warm contrast and earthy tones.",
+      "preview": "themes/gruvbox-dark/preview.svg",
+      "readme": "themes/gruvbox-dark/README.md",
+      "source": "themes/gruvbox-dark/theme.json",
+      "import": "themes/gruvbox-dark/import.txt"
+    },
+    {
+      "name": "Nord",
+      "slug": "nord",
+      "author": "arcticicestudio / Codex Themes",
+      "type": "app",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "arctic",
+        "calm"
+      ],
+      "description": "Nord adapted for Codex App with cool blue accents and balanced contrast.",
+      "preview": "themes/nord/preview.svg",
+      "readme": "themes/nord/README.md",
+      "source": "themes/nord/theme.json",
+      "import": "themes/nord/import.txt"
+    },
+    {
+      "name": "One Dark",
+      "slug": "one-dark",
+      "author": "Atom / Codex Themes",
+      "type": "app",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "modern",
+        "balanced"
+      ],
+      "description": "One Dark adapted for Codex App with the classic Atom-style palette.",
+      "preview": "themes/one-dark/preview.svg",
+      "readme": "themes/one-dark/README.md",
+      "source": "themes/one-dark/theme.json",
+      "import": "themes/one-dark/import.txt"
+    },
+    {
+      "name": "Solarized Light",
+      "slug": "solarized-light",
+      "author": "Ethan Schoonover / Codex Themes",
+      "type": "app",
+      "mode": "light",
+      "tags": [
+        "light",
+        "classic",
+        "muted"
+      ],
+      "description": "Solarized Light adapted for Codex App with warm neutrals and restrained contrast.",
+      "preview": "themes/solarized-light/preview.svg",
+      "readme": "themes/solarized-light/README.md",
+      "source": "themes/solarized-light/theme.json",
+      "import": "themes/solarized-light/import.txt"
+    },
+    {
+      "name": "Tokyo Night",
+      "slug": "tokyo-night",
+      "author": "enkia / Codex Themes",
+      "type": "app",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "blue",
+        "popular"
+      ],
+      "description": "Tokyo Night adapted for Codex App with a soft blue accent.",
+      "preview": "themes/tokyo-night/preview.svg",
+      "readme": "themes/tokyo-night/README.md",
+      "source": "themes/tokyo-night/theme.json",
+      "import": "themes/tokyo-night/import.txt"
+    }
+  ]
+}

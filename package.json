@@ -1,0 +1,15 @@
+{
+  "name": "codex-themes",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Curated themes for Codex App with generated import strings.",
+  "license": "MIT",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "build:previews": "node scripts/generate-previews.js",
+    "build:imports": "node scripts/build-imports.js",
+    "build:index": "node scripts/generate-index.js",
+    "build:readme": "node scripts/generate-readme.js",
+    "build": "node scripts/build.js"
+  }
+}

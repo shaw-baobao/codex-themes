@@ -1,0 +1,21 @@
+{
+  "name": "Gruvbox Dark",
+  "slug": "gruvbox-dark",
+  "author": "morhetz / Codex Themes",
+  "type": "app",
+  "mode": "dark",
+  "tags": ["dark", "warm", "retro"],
+  "description": "Gruvbox Dark adapted for Codex App with warm contrast and earthy tones.",
+  "codeThemeId": "gruvbox-dark",
+  "theme": {
+    "accent": "#d79921",
+    "background": "#282828",
+    "foreground": "#ebdbb2",
+    "surface": "#3c3836",
+    "contrast": 61,
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

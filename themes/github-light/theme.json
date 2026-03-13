@@ -1,0 +1,21 @@
+{
+  "name": "GitHub Light",
+  "slug": "github-light",
+  "author": "GitHub / Codex Themes",
+  "type": "app",
+  "mode": "light",
+  "tags": ["light", "clean", "github"],
+  "description": "GitHub Light adapted for Codex App with a clean neutral palette.",
+  "codeThemeId": "github-light",
+  "theme": {
+    "accent": "#0969da",
+    "background": "#ffffff",
+    "foreground": "#1f2328",
+    "surface": "#f6f8fa",
+    "contrast": 18,
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

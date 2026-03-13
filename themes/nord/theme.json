@@ -1,0 +1,21 @@
+{
+  "name": "Nord",
+  "slug": "nord",
+  "author": "arcticicestudio / Codex Themes",
+  "type": "app",
+  "mode": "dark",
+  "tags": ["dark", "arctic", "calm"],
+  "description": "Nord adapted for Codex App with cool blue accents and balanced contrast.",
+  "codeThemeId": "nord",
+  "theme": {
+    "accent": "#88c0d0",
+    "background": "#2e3440",
+    "foreground": "#eceff4",
+    "surface": "#3b4252",
+    "contrast": 43,
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

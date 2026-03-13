@@ -1,0 +1,21 @@
+{
+  "name": "Tokyo Night",
+  "slug": "tokyo-night",
+  "author": "enkia / Codex Themes",
+  "type": "app",
+  "mode": "dark",
+  "tags": ["dark", "blue", "popular"],
+  "description": "Tokyo Night adapted for Codex App with a soft blue accent.",
+  "codeThemeId": "tokyo-night",
+  "theme": {
+    "accent": "#7aa2f7",
+    "background": "#1a1b26",
+    "foreground": "#c0caf5",
+    "surface": "#24283b",
+    "contrast": 52,
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

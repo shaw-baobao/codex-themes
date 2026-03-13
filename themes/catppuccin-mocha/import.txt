@@ -1,0 +1,1 @@
+codex-theme-v1:{"codeThemeId":"catppuccin-mocha","theme":{"accent":"#89b4fa","background":"#1e1e2e","foreground":"#cdd6f4","surface":"#313244","contrast":46,"fonts":{"ui":"SF Pro Text","code":"SF Mono"}}}

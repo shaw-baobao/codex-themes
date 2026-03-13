@@ -1,0 +1,21 @@
+{
+  "name": "Solarized Light",
+  "slug": "solarized-light",
+  "author": "Ethan Schoonover / Codex Themes",
+  "type": "app",
+  "mode": "light",
+  "tags": ["light", "classic", "muted"],
+  "description": "Solarized Light adapted for Codex App with warm neutrals and restrained contrast.",
+  "codeThemeId": "solarized-light",
+  "theme": {
+    "accent": "#268bd2",
+    "background": "#fdf6e3",
+    "foreground": "#586e75",
+    "surface": "#eee8d5",
+    "contrast": 22,
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+codex-theme-v1:{"codeThemeId":"poimandres","theme":{"accent":"#add7ff","contrast":45,"fonts":{"ui":"SF Pro Text","code":"SF Mono"},"ink":"#e4f0fb","opaqueWindows":false,"semanticColors":{"diffAdded":"#5de4c7","diffRemoved":"#d0679d","skill":"#fae4fc"},"surface":"#303340"},"variant":"dark"}

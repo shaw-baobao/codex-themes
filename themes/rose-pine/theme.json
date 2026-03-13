@@ -1,0 +1,27 @@
+{
+  "name": "Rosé Pine",
+  "slug": "rose-pine",
+  "author": "rose-pine / Codex Themes",
+  "type": "app",
+  "mode": "dark",
+  "tags": ["dark", "rose-pine", "soft"],
+  "description": "Rosé Pine adapted for Codex App with soft mauves and subdued contrast.",
+  "codeThemeId": "rose-pine",
+  "theme": {
+    "accent": "#c4a7e7",
+    "background": "#191724",
+    "foreground": "#e0def4",
+    "surface": "#26233a",
+    "contrast": 44,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#9ccfd8",
+      "diffRemoved": "#eb6f92",
+      "skill": "#c4a7e7"
+    },
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

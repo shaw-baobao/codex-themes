@@ -1,0 +1,27 @@
+{
+  "name": "Codex Dark",
+  "slug": "codex-dark",
+  "author": "OpenAI / Codex Themes",
+  "type": "app",
+  "mode": "dark",
+  "tags": ["dark", "default", "codex"],
+  "description": "Codex Dark adapted from the built-in Codex look with a bright blue accent.",
+  "codeThemeId": "codex",
+  "theme": {
+    "accent": "#339cff",
+    "background": "#181818",
+    "foreground": "#ffffff",
+    "surface": "#2d2d2b",
+    "contrast": 45,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#34c759",
+      "diffRemoved": "#ff5f57",
+      "skill": "#7c8cff"
+    },
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

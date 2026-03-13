@@ -1,0 +1,27 @@
+{
+  "name": "Material Ocean",
+  "slug": "material-ocean",
+  "author": "material-theme / Codex Themes",
+  "type": "app",
+  "mode": "dark",
+  "tags": ["dark", "material", "ocean"],
+  "description": "Material Ocean adapted for Codex App with cool blues and vibrant syntax accents.",
+  "codeThemeId": "material",
+  "theme": {
+    "accent": "#82aaff",
+    "background": "#263238",
+    "foreground": "#eeffff",
+    "surface": "#2e3c43",
+    "contrast": 46,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#c3e88d",
+      "diffRemoved": "#f07178",
+      "skill": "#c792ea"
+    },
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-03-13T06:42:16.474Z",
+  "generatedAt": "2026-03-13T07:40:15.837Z",
   "themes": [
+    {
+      "name": "Ayu Dark",
+      "slug": "ayu-dark",
+      "author": "teabyii / Codex Themes",
+      "type": "app",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "warm",
+        "ayu"
+      ],
+      "description": "Ayu Dark adapted for Codex App with warm highlights and soft contrast.",
+      "preview": "themes/ayu-dark/preview.svg",
+      "readme": "themes/ayu-dark/README.md",
+      "source": "themes/ayu-dark/theme.json",
+      "import": "themes/ayu-dark/import.txt"
+    },
     {
       "name": "Catppuccin Mocha",
       "slug": "catppuccin-mocha",
@@ -19,6 +36,23 @@
       "import": "themes/catppuccin-mocha/import.txt"
     },
     {
+      "name": "Codex Dark",
+      "slug": "codex-dark",
+      "author": "OpenAI / Codex Themes",
+      "type": "app",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "default",
+        "codex"
+      ],
+      "description": "Codex Dark adapted from the built-in Codex look with a bright blue accent.",
+      "preview": "themes/codex-dark/preview.svg",
+      "readme": "themes/codex-dark/README.md",
+      "source": "themes/codex-dark/theme.json",
+      "import": "themes/codex-dark/import.txt"
+    },
+    {
       "name": "Dracula",
       "slug": "dracula",
       "author": "Dracula Theme / Codex Themes",
@@ -34,6 +68,40 @@
       "readme": "themes/dracula/README.md",
       "source": "themes/dracula/theme.json",
       "import": "themes/dracula/import.txt"
+    },
+    {
+      "name": "Everforest Dark",
+      "slug": "everforest-dark",
+      "author": "sainnhe / Codex Themes",
+      "type": "app",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "forest",
+        "muted"
+      ],
+      "description": "Everforest Dark adapted for Codex App with natural greens and low eye strain.",
+      "preview": "themes/everforest-dark/preview.svg",
+      "readme": "themes/everforest-dark/README.md",
+      "source": "themes/everforest-dark/theme.json",
+      "import": "themes/everforest-dark/import.txt"
+    },
+    {
+      "name": "GitHub Dark",
+      "slug": "github-dark",
+      "author": "GitHub / Codex Themes",
+      "type": "app",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "github",
+        "clean"
+      ],
+      "description": "GitHub Dark adapted for Codex App with a clean blue accent and neutral surfaces.",
+      "preview": "themes/github-dark/preview.svg",
+      "readme": "themes/github-dark/README.md",
+      "source": "themes/github-dark/theme.json",
+      "import": "themes/github-dark/import.txt"
     },
     {
       "name": "GitHub Light",
@@ -70,6 +138,57 @@
       "import": "themes/gruvbox-dark/import.txt"
     },
     {
+      "name": "Material Ocean",
+      "slug": "material-ocean",
+      "author": "material-theme / Codex Themes",
+      "type": "app",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "material",
+        "ocean"
+      ],
+      "description": "Material Ocean adapted for Codex App with cool blues and vibrant syntax accents.",
+      "preview": "themes/material-ocean/preview.svg",
+      "readme": "themes/material-ocean/README.md",
+      "source": "themes/material-ocean/theme.json",
+      "import": "themes/material-ocean/import.txt"
+    },
+    {
+      "name": "Monokai",
+      "slug": "monokai",
+      "author": "Wimer Hazenberg / Codex Themes",
+      "type": "app",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "classic",
+        "monokai"
+      ],
+      "description": "Monokai adapted for Codex App with bold contrast and saturated highlights.",
+      "preview": "themes/monokai/preview.svg",
+      "readme": "themes/monokai/README.md",
+      "source": "themes/monokai/theme.json",
+      "import": "themes/monokai/import.txt"
+    },
+    {
+      "name": "Night Owl",
+      "slug": "night-owl",
+      "author": "Sarah Drasner / Codex Themes",
+      "type": "app",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "owl",
+        "blue"
+      ],
+      "description": "Night Owl adapted for Codex App with deep navy surfaces and luminous highlights.",
+      "preview": "themes/night-owl/preview.svg",
+      "readme": "themes/night-owl/README.md",
+      "source": "themes/night-owl/theme.json",
+      "import": "themes/night-owl/import.txt"
+    },
+    {
       "name": "Nord",
       "slug": "nord",
       "author": "arcticicestudio / Codex Themes",
@@ -102,6 +221,40 @@
       "readme": "themes/one-dark/README.md",
       "source": "themes/one-dark/theme.json",
       "import": "themes/one-dark/import.txt"
+    },
+    {
+      "name": "Poimandres",
+      "slug": "poimandres",
+      "author": "poimandres / Codex Themes",
+      "type": "app",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "poimandres",
+        "soft"
+      ],
+      "description": "Poimandres adapted for Codex App with airy highlights and low-glare surfaces.",
+      "preview": "themes/poimandres/preview.svg",
+      "readme": "themes/poimandres/README.md",
+      "source": "themes/poimandres/theme.json",
+      "import": "themes/poimandres/import.txt"
+    },
+    {
+      "name": "Rosé Pine",
+      "slug": "rose-pine",
+      "author": "rose-pine / Codex Themes",
+      "type": "app",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "rose-pine",
+        "soft"
+      ],
+      "description": "Rosé Pine adapted for Codex App with soft mauves and subdued contrast.",
+      "preview": "themes/rose-pine/preview.svg",
+      "readme": "themes/rose-pine/README.md",
+      "source": "themes/rose-pine/theme.json",
+      "import": "themes/rose-pine/import.txt"
     },
     {
       "name": "Solarized Light",

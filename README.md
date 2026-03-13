@@ -136,12 +136,21 @@ npm run build
 <!-- themes:start -->
 | Theme | Mode | Preview | Import | Tags |
 | --- | --- | --- | --- | --- |
+| [Ayu Dark](./themes/ayu-dark/README.md) | Dark | ![Ayu Dark](./themes/ayu-dark/preview.svg) | [import.txt](./themes/ayu-dark/import.txt) | dark, warm, ayu |
 | [Catppuccin Mocha](./themes/catppuccin-mocha/README.md) | Dark | ![Catppuccin Mocha](./themes/catppuccin-mocha/preview.svg) | [import.txt](./themes/catppuccin-mocha/import.txt) | dark, pastel, mocha |
+| [Codex Dark](./themes/codex-dark/README.md) | Dark | ![Codex Dark](./themes/codex-dark/preview.svg) | [import.txt](./themes/codex-dark/import.txt) | dark, default, codex |
 | [Dracula](./themes/dracula/README.md) | Dark | ![Dracula](./themes/dracula/preview.svg) | [import.txt](./themes/dracula/import.txt) | dark, purple, neon |
+| [Everforest Dark](./themes/everforest-dark/README.md) | Dark | ![Everforest Dark](./themes/everforest-dark/preview.svg) | [import.txt](./themes/everforest-dark/import.txt) | dark, forest, muted |
+| [GitHub Dark](./themes/github-dark/README.md) | Dark | ![GitHub Dark](./themes/github-dark/preview.svg) | [import.txt](./themes/github-dark/import.txt) | dark, github, clean |
 | [GitHub Light](./themes/github-light/README.md) | Light | ![GitHub Light](./themes/github-light/preview.svg) | [import.txt](./themes/github-light/import.txt) | light, clean, github |
 | [Gruvbox Dark](./themes/gruvbox-dark/README.md) | Dark | ![Gruvbox Dark](./themes/gruvbox-dark/preview.svg) | [import.txt](./themes/gruvbox-dark/import.txt) | dark, warm, retro |
+| [Material Ocean](./themes/material-ocean/README.md) | Dark | ![Material Ocean](./themes/material-ocean/preview.svg) | [import.txt](./themes/material-ocean/import.txt) | dark, material, ocean |
+| [Monokai](./themes/monokai/README.md) | Dark | ![Monokai](./themes/monokai/preview.svg) | [import.txt](./themes/monokai/import.txt) | dark, classic, monokai |
+| [Night Owl](./themes/night-owl/README.md) | Dark | ![Night Owl](./themes/night-owl/preview.svg) | [import.txt](./themes/night-owl/import.txt) | dark, owl, blue |
 | [Nord](./themes/nord/README.md) | Dark | ![Nord](./themes/nord/preview.svg) | [import.txt](./themes/nord/import.txt) | dark, arctic, calm |
 | [One Dark](./themes/one-dark/README.md) | Dark | ![One Dark](./themes/one-dark/preview.svg) | [import.txt](./themes/one-dark/import.txt) | dark, modern, balanced |
+| [Poimandres](./themes/poimandres/README.md) | Dark | ![Poimandres](./themes/poimandres/preview.svg) | [import.txt](./themes/poimandres/import.txt) | dark, poimandres, soft |
+| [Rosé Pine](./themes/rose-pine/README.md) | Dark | ![Rosé Pine](./themes/rose-pine/preview.svg) | [import.txt](./themes/rose-pine/import.txt) | dark, rose-pine, soft |
 | [Solarized Light](./themes/solarized-light/README.md) | Light | ![Solarized Light](./themes/solarized-light/preview.svg) | [import.txt](./themes/solarized-light/import.txt) | light, classic, muted |
 | [Tokyo Night](./themes/tokyo-night/README.md) | Dark | ![Tokyo Night](./themes/tokyo-night/preview.svg) | [import.txt](./themes/tokyo-night/import.txt) | dark, blue, popular |
 <!-- themes:end -->

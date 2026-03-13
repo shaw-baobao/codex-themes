@@ -1,0 +1,1 @@
+codex-theme-v1:{"codeThemeId":"night-owl","theme":{"accent":"#82aaff","contrast":48,"fonts":{"ui":"SF Pro Text","code":"SF Mono"},"ink":"#d6deeb","opaqueWindows":false,"semanticColors":{"diffAdded":"#22da6e","diffRemoved":"#ef5350","skill":"#c792ea"},"surface":"#1d3b53"},"variant":"dark"}

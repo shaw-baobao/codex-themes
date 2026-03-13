@@ -1,0 +1,47 @@
+<svg width="1280" height="800" viewBox="0 0 1280 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="800" rx="32" fill="#2b3339"/>
+  <rect x="44" y="44" width="1192" height="712" rx="28" fill="#374145" stroke="#d3c6aa" stroke-opacity="0.12"/>
+  <rect x="44" y="44" width="1192" height="92" rx="28" fill="#d3c6aa" fill-opacity="0.06"/>
+  <circle cx="96" cy="90" r="12" fill="#a7c080"/>
+  <circle cx="132" cy="90" r="12" fill="#d3c6aa" fill-opacity="0.24"/>
+  <circle cx="168" cy="90" r="12" fill="#d3c6aa" fill-opacity="0.14"/>
+  <text x="212" y="98" fill="#d3c6aa" font-family="SF Mono, Menlo, monospace" font-size="28">everforest-dark</text>
+  <text x="88" y="214" fill="#d3c6aa" fill-opacity="0.56" font-family="SF Mono, Menlo, monospace" font-size="20">CODEX APP THEME</text>
+  <text x="88" y="282" fill="#d3c6aa" font-family="SF Mono, Menlo, monospace" font-size="58" font-weight="700">Everforest Dark</text>
+  <text x="88" y="334" fill="#a7c080" font-family="SF Mono, Menlo, monospace" font-size="24">DARK  /  contrast 44</text>
+  <text x="88" y="388" fill="#d3c6aa" fill-opacity="0.76" font-family="SF Mono, Menlo, monospace" font-size="24">Everforest Dark adapted for Codex App with natural greens and low eye strain.</text>
+  <text x="88" y="430" fill="#d3c6aa" fill-opacity="0.52" font-family="SF Mono, Menlo, monospace" font-size="18">dark  •  forest  •  muted</text>
+  <rect x="88" y="490" width="540" height="178" rx="24" fill="#2b3339" stroke="#d3c6aa" stroke-opacity="0.1"/>
+  <text x="120" y="546" fill="#a7c080" font-family="SF Mono, Menlo, monospace" font-size="22">import codex-theme-v1</text>
+  <text x="120" y="596" fill="#d3c6aa" font-family="SF Mono, Menlo, monospace" font-size="20">fonts.ui   = SF Pro Text</text>
+  <text x="120" y="632" fill="#d3c6aa" font-family="SF Mono, Menlo, monospace" font-size="20">fonts.code = SF Mono</text>
+  <text x="120" y="668" fill="#d3c6aa" fill-opacity="0.62" font-family="SF Mono, Menlo, monospace" font-size="18">Generated from theme.json</text>
+  <g transform="translate(680 488)">
+    
+  <g transform="translate(0 0)">
+    <rect width="224" height="132" rx="22" fill="#2b3339" stroke="#d3c6aa" stroke-opacity="0.14"/>
+    <text x="24" y="42" fill="#d3c6aa" fill-opacity="0.68" font-family="SF Mono, Menlo, monospace" font-size="16">background</text>
+    <text x="24" y="88" fill="#d3c6aa" font-family="SF Mono, Menlo, monospace" font-size="24" font-weight="700">#2b3339</text>
+  </g>
+    
+  <g transform="translate(244 0)">
+    <rect width="224" height="132" rx="22" fill="#374145" stroke="#d3c6aa" stroke-opacity="0.14"/>
+    <text x="24" y="42" fill="#d3c6aa" fill-opacity="0.68" font-family="SF Mono, Menlo, monospace" font-size="16">surface</text>
+    <text x="24" y="88" fill="#d3c6aa" font-family="SF Mono, Menlo, monospace" font-size="24" font-weight="700">#374145</text>
+  </g>
+  </g>
+  <g transform="translate(680 636)">
+    
+  <g transform="translate(0 0)">
+    <rect width="224" height="132" rx="22" fill="#a7c080" stroke="#d3c6aa" stroke-opacity="0.14"/>
+    <text x="24" y="42" fill="#d3c6aa" fill-opacity="0.68" font-family="SF Mono, Menlo, monospace" font-size="16">accent</text>
+    <text x="24" y="88" fill="#d3c6aa" font-family="SF Mono, Menlo, monospace" font-size="24" font-weight="700">#a7c080</text>
+  </g>
+    
+  <g transform="translate(244 0)">
+    <rect width="224" height="132" rx="22" fill="#d3c6aa" stroke="#2b3339" stroke-opacity="0.14"/>
+    <text x="24" y="42" fill="#2b3339" fill-opacity="0.68" font-family="SF Mono, Menlo, monospace" font-size="16">foreground</text>
+    <text x="24" y="88" fill="#2b3339" font-family="SF Mono, Menlo, monospace" font-size="24" font-weight="700">#d3c6aa</text>
+  </g>
+  </g>
+</svg>

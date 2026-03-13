@@ -1,0 +1,27 @@
+{
+  "name": "GitHub Dark",
+  "slug": "github-dark",
+  "author": "GitHub / Codex Themes",
+  "type": "app",
+  "mode": "dark",
+  "tags": ["dark", "github", "clean"],
+  "description": "GitHub Dark adapted for Codex App with a clean blue accent and neutral surfaces.",
+  "codeThemeId": "github",
+  "theme": {
+    "accent": "#58a6ff",
+    "background": "#0d1117",
+    "foreground": "#c9d1d9",
+    "surface": "#161b22",
+    "contrast": 40,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#3fb950",
+      "diffRemoved": "#f85149",
+      "skill": "#a371f7"
+    },
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

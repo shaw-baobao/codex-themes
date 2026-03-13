@@ -1,0 +1,27 @@
+{
+  "name": "Poimandres",
+  "slug": "poimandres",
+  "author": "poimandres / Codex Themes",
+  "type": "app",
+  "mode": "dark",
+  "tags": ["dark", "poimandres", "soft"],
+  "description": "Poimandres adapted for Codex App with airy highlights and low-glare surfaces.",
+  "codeThemeId": "poimandres",
+  "theme": {
+    "accent": "#add7ff",
+    "background": "#1b1e28",
+    "foreground": "#e4f0fb",
+    "surface": "#303340",
+    "contrast": 45,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#5de4c7",
+      "diffRemoved": "#d0679d",
+      "skill": "#fae4fc"
+    },
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Everforest Dark",
+  "slug": "everforest-dark",
+  "author": "sainnhe / Codex Themes",
+  "type": "app",
+  "mode": "dark",
+  "tags": ["dark", "forest", "muted"],
+  "description": "Everforest Dark adapted for Codex App with natural greens and low eye strain.",
+  "codeThemeId": "everforest",
+  "theme": {
+    "accent": "#a7c080",
+    "background": "#2b3339",
+    "foreground": "#d3c6aa",
+    "surface": "#374145",
+    "contrast": 44,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#a7c080",
+      "diffRemoved": "#e67e80",
+      "skill": "#d699b6"
+    },
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

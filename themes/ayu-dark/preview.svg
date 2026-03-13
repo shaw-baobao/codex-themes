@@ -1,0 +1,47 @@
+<svg width="1280" height="800" viewBox="0 0 1280 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="800" rx="32" fill="#0f1419"/>
+  <rect x="44" y="44" width="1192" height="712" rx="28" fill="#171b24" stroke="#e6e1cf" stroke-opacity="0.12"/>
+  <rect x="44" y="44" width="1192" height="92" rx="28" fill="#e6e1cf" fill-opacity="0.06"/>
+  <circle cx="96" cy="90" r="12" fill="#ffb454"/>
+  <circle cx="132" cy="90" r="12" fill="#e6e1cf" fill-opacity="0.24"/>
+  <circle cx="168" cy="90" r="12" fill="#e6e1cf" fill-opacity="0.14"/>
+  <text x="212" y="98" fill="#e6e1cf" font-family="SF Mono, Menlo, monospace" font-size="28">ayu-dark</text>
+  <text x="88" y="214" fill="#e6e1cf" fill-opacity="0.56" font-family="SF Mono, Menlo, monospace" font-size="20">CODEX APP THEME</text>
+  <text x="88" y="282" fill="#e6e1cf" font-family="SF Mono, Menlo, monospace" font-size="58" font-weight="700">Ayu Dark</text>
+  <text x="88" y="334" fill="#ffb454" font-family="SF Mono, Menlo, monospace" font-size="24">DARK  /  contrast 47</text>
+  <text x="88" y="388" fill="#e6e1cf" fill-opacity="0.76" font-family="SF Mono, Menlo, monospace" font-size="24">Ayu Dark adapted for Codex App with warm highlights and soft contrast.</text>
+  <text x="88" y="430" fill="#e6e1cf" fill-opacity="0.52" font-family="SF Mono, Menlo, monospace" font-size="18">dark  •  warm  •  ayu</text>
+  <rect x="88" y="490" width="540" height="178" rx="24" fill="#0f1419" stroke="#e6e1cf" stroke-opacity="0.1"/>
+  <text x="120" y="546" fill="#ffb454" font-family="SF Mono, Menlo, monospace" font-size="22">import codex-theme-v1</text>
+  <text x="120" y="596" fill="#e6e1cf" font-family="SF Mono, Menlo, monospace" font-size="20">fonts.ui   = SF Pro Text</text>
+  <text x="120" y="632" fill="#e6e1cf" font-family="SF Mono, Menlo, monospace" font-size="20">fonts.code = SF Mono</text>
+  <text x="120" y="668" fill="#e6e1cf" fill-opacity="0.62" font-family="SF Mono, Menlo, monospace" font-size="18">Generated from theme.json</text>
+  <g transform="translate(680 488)">
+    
+  <g transform="translate(0 0)">
+    <rect width="224" height="132" rx="22" fill="#0f1419" stroke="#e6e1cf" stroke-opacity="0.14"/>
+    <text x="24" y="42" fill="#e6e1cf" fill-opacity="0.68" font-family="SF Mono, Menlo, monospace" font-size="16">background</text>
+    <text x="24" y="88" fill="#e6e1cf" font-family="SF Mono, Menlo, monospace" font-size="24" font-weight="700">#0f1419</text>
+  </g>
+    
+  <g transform="translate(244 0)">
+    <rect width="224" height="132" rx="22" fill="#171b24" stroke="#e6e1cf" stroke-opacity="0.14"/>
+    <text x="24" y="42" fill="#e6e1cf" fill-opacity="0.68" font-family="SF Mono, Menlo, monospace" font-size="16">surface</text>
+    <text x="24" y="88" fill="#e6e1cf" font-family="SF Mono, Menlo, monospace" font-size="24" font-weight="700">#171b24</text>
+  </g>
+  </g>
+  <g transform="translate(680 636)">
+    
+  <g transform="translate(0 0)">
+    <rect width="224" height="132" rx="22" fill="#ffb454" stroke="#e6e1cf" stroke-opacity="0.14"/>
+    <text x="24" y="42" fill="#e6e1cf" fill-opacity="0.68" font-family="SF Mono, Menlo, monospace" font-size="16">accent</text>
+    <text x="24" y="88" fill="#e6e1cf" font-family="SF Mono, Menlo, monospace" font-size="24" font-weight="700">#ffb454</text>
+  </g>
+    
+  <g transform="translate(244 0)">
+    <rect width="224" height="132" rx="22" fill="#e6e1cf" stroke="#0f1419" stroke-opacity="0.14"/>
+    <text x="24" y="42" fill="#0f1419" fill-opacity="0.68" font-family="SF Mono, Menlo, monospace" font-size="16">foreground</text>
+    <text x="24" y="88" fill="#0f1419" font-family="SF Mono, Menlo, monospace" font-size="24" font-weight="700">#e6e1cf</text>
+  </g>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+{
+  "name": "Night Owl",
+  "slug": "night-owl",
+  "author": "Sarah Drasner / Codex Themes",
+  "type": "app",
+  "mode": "dark",
+  "tags": ["dark", "owl", "blue"],
+  "description": "Night Owl adapted for Codex App with deep navy surfaces and luminous highlights.",
+  "codeThemeId": "night-owl",
+  "theme": {
+    "accent": "#82aaff",
+    "background": "#011627",
+    "foreground": "#d6deeb",
+    "surface": "#1d3b53",
+    "contrast": 48,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#22da6e",
+      "diffRemoved": "#ef5350",
+      "skill": "#c792ea"
+    },
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

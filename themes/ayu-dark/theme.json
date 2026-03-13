@@ -1,0 +1,27 @@
+{
+  "name": "Ayu Dark",
+  "slug": "ayu-dark",
+  "author": "teabyii / Codex Themes",
+  "type": "app",
+  "mode": "dark",
+  "tags": ["dark", "warm", "ayu"],
+  "description": "Ayu Dark adapted for Codex App with warm highlights and soft contrast.",
+  "codeThemeId": "ayu",
+  "theme": {
+    "accent": "#ffb454",
+    "background": "#0f1419",
+    "foreground": "#e6e1cf",
+    "surface": "#171b24",
+    "contrast": 47,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#7fd962",
+      "diffRemoved": "#f26d78",
+      "skill": "#d2a6ff"
+    },
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

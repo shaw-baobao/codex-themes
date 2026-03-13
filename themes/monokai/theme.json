@@ -1,0 +1,27 @@
+{
+  "name": "Monokai",
+  "slug": "monokai",
+  "author": "Wimer Hazenberg / Codex Themes",
+  "type": "app",
+  "mode": "dark",
+  "tags": ["dark", "classic", "monokai"],
+  "description": "Monokai adapted for Codex App with bold contrast and saturated highlights.",
+  "codeThemeId": "monokai",
+  "theme": {
+    "accent": "#fd971f",
+    "background": "#272822",
+    "foreground": "#f8f8f2",
+    "surface": "#3e3d32",
+    "contrast": 56,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#a6e22e",
+      "diffRemoved": "#f92672",
+      "skill": "#ae81ff"
+    },
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+codex-theme-v1:{"codeThemeId":"material","theme":{"accent":"#82aaff","contrast":46,"fonts":{"ui":"SF Pro Text","code":"SF Mono"},"ink":"#eeffff","opaqueWindows":false,"semanticColors":{"diffAdded":"#c3e88d","diffRemoved":"#f07178","skill":"#c792ea"},"surface":"#2e3c43"},"variant":"dark"}

@@ -3,24 +3,42 @@ const path = require("node:path");
 
 const { loadThemes, getThemeIndexRecord, rootDir } = require("./lib/theme-utils");
 
-const readmePath = path.join(rootDir, "README.md");
 const startMarker = "<!-- themes:start -->";
 const endMarker = "<!-- themes:end -->";
+const readmeConfigs = [
+  {
+    path: path.join(rootDir, "README.md"),
+    headers: ["Theme", "Mode", "Preview", "Import", "Tags"],
+    importLabel: "import.txt",
+    modeLabel(mode) {
+      return toTitleCase(mode);
+    }
+  },
+  {
+    path: path.join(rootDir, "README.zh-CN.md"),
+    headers: ["主题", "模式", "预览", "导入", "标签"],
+    importLabel: "import.txt",
+    modeLabel(mode) {
+      return mode === "light" ? "浅色" : "深色";
+    }
+  }
+];
 
 function toTitleCase(value) {
   return value.charAt(0).toUpperCase() + value.slice(1);
 }
 
-function buildTable(records) {
+function buildTable(records, config) {
+  const [themeHeader, modeHeader, previewHeader, importHeader, tagsHeader] = config.headers;
   const header = [
-    "| Theme | Mode | Preview | Import | Tags |",
+    `| ${themeHeader} | ${modeHeader} | ${previewHeader} | ${importHeader} | ${tagsHeader} |`,
     "| --- | --- | --- | --- | --- |"
   ];
   const rows = records.map((record) => {
     const name = `[${record.name}](./${record.readme})`;
-    const mode = toTitleCase(record.mode);
+    const mode = config.modeLabel(record.mode);
     const preview = `![${record.name}](./${record.preview})`;
-    const importLink = `[import.txt](./${record.import})`;
+    const importLink = `[${config.importLabel}](./${record.import})`;
     const tags = record.tags.join(", ");
 
     return `| ${name} | ${mode} | ${preview} | ${importLink} | ${tags} |`;
@@ -29,21 +47,28 @@ function buildTable(records) {
   return [...header, ...rows].join("\n");
 }
 
-function generateReadme() {
-  const source = fs.readFileSync(readmePath, "utf8");
+function updateReadme(records, config) {
+  const source = fs.readFileSync(config.path, "utf8");
   const startIndex = source.indexOf(startMarker);
   const endIndex = source.indexOf(endMarker);
 
   if (startIndex === -1 || endIndex === -1 || endIndex <= startIndex) {
-    throw new Error("README theme markers are missing or invalid.");
+    throw new Error(`${path.basename(config.path)} theme markers are missing or invalid.`);
   }
 
-  const records = loadThemes().map(getThemeIndexRecord);
-  const table = buildTable(records);
+  const table = buildTable(records, config);
   const next = `${source.slice(0, startIndex + startMarker.length)}\n${table}\n${source.slice(endIndex)}`;
 
-  fs.writeFileSync(readmePath, next, "utf8");
-  console.log(`wrote ${path.relative(process.cwd(), readmePath)}`);
+  fs.writeFileSync(config.path, next, "utf8");
+  console.log(`wrote ${path.relative(process.cwd(), config.path)}`);
+}
+
+function generateReadme() {
+  const records = loadThemes().map(getThemeIndexRecord);
+
+  for (const config of readmeConfigs) {
+    updateReadme(records, config);
+  }
 }
 
 if (require.main === module) {

@@ -1,3 +1,5 @@
+[English](./README.md) | [简体中文](./README.zh-CN.md)
+
 # Codex Themes
 
 Curated themes for Codex App, with preview assets and generated import strings.
@@ -129,7 +131,7 @@ npm run build
 - regenerates `themes/*/preview.svg`
 - regenerates `themes/*/import.txt`
 - regenerates `themes/index.json`
-- refreshes the generated theme table in this README
+- refreshes the generated theme tables in both README files
 
 ## Theme gallery
 

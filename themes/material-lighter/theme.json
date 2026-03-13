@@ -1,0 +1,27 @@
+{
+  "name": "Material Lighter",
+  "slug": "material-lighter",
+  "author": "material-theme / Codex Themes",
+  "type": "app",
+  "mode": "light",
+  "tags": ["light", "material", "clean"],
+  "description": "Material Lighter adapted for Codex App with crisp surfaces and vivid purple accents.",
+  "codeThemeId": "material",
+  "theme": {
+    "accent": "#7c4dff",
+    "background": "#fafafa",
+    "foreground": "#546e7a",
+    "surface": "#ffffff",
+    "contrast": 18,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#91b859",
+      "diffRemoved": "#ff5370",
+      "skill": "#c792ea"
+    },
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

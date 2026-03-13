@@ -1,0 +1,27 @@
+{
+  "name": "Ayu Light",
+  "slug": "ayu-light",
+  "author": "teabyii / Codex Themes",
+  "type": "app",
+  "mode": "light",
+  "tags": ["light", "warm", "ayu"],
+  "description": "Ayu Light adapted for Codex App with warm orange highlights and clean contrast.",
+  "codeThemeId": "ayu",
+  "theme": {
+    "accent": "#f29718",
+    "background": "#fcfcfc",
+    "foreground": "#5c6166",
+    "surface": "#ffffff",
+    "contrast": 20,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#6cbf43",
+      "diffRemoved": "#f07171",
+      "skill": "#399ee6"
+    },
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

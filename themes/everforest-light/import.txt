@@ -1,0 +1,1 @@
+codex-theme-v1:{"codeThemeId":"everforest","theme":{"accent":"#93b259","contrast":26,"fonts":{"ui":"SF Pro Text","code":"SF Mono"},"ink":"#5c6a72","opaqueWindows":false,"semanticColors":{"diffAdded":"#8da101","diffRemoved":"#f85552","skill":"#df69ba"},"surface":"#f4f0d9"},"variant":"light"}

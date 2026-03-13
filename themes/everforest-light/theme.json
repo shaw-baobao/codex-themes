@@ -1,0 +1,27 @@
+{
+  "name": "Everforest Light",
+  "slug": "everforest-light",
+  "author": "sainnhe / Codex Themes",
+  "type": "app",
+  "mode": "light",
+  "tags": ["light", "forest", "muted"],
+  "description": "Everforest Light adapted for Codex App with muted greens and warm paper tones.",
+  "codeThemeId": "everforest",
+  "theme": {
+    "accent": "#93b259",
+    "background": "#fdf6e3",
+    "foreground": "#5c6a72",
+    "surface": "#f4f0d9",
+    "contrast": 26,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#8da101",
+      "diffRemoved": "#f85552",
+      "skill": "#df69ba"
+    },
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

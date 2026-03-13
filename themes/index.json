@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-03-13T07:52:06.155Z",
+  "generatedAt": "2026-03-13T08:06:25.269Z",
   "themes": [
+    {
+      "name": "Absolutely Light",
+      "slug": "absolutely-light",
+      "author": "OpenAI / Codex Themes",
+      "type": "app",
+      "mode": "light",
+      "tags": [
+        "light",
+        "neutral",
+        "default"
+      ],
+      "description": "Absolutely Light adapted for Codex App with warm neutrals and soft contrast.",
+      "preview": "themes/absolutely-light/preview.svg",
+      "readme": "themes/absolutely-light/README.md",
+      "source": "themes/absolutely-light/theme.json",
+      "import": "themes/absolutely-light/import.txt"
+    },
     {
       "name": "Ayu Dark",
       "slug": "ayu-dark",
@@ -17,6 +34,40 @@
       "readme": "themes/ayu-dark/README.md",
       "source": "themes/ayu-dark/theme.json",
       "import": "themes/ayu-dark/import.txt"
+    },
+    {
+      "name": "Ayu Light",
+      "slug": "ayu-light",
+      "author": "teabyii / Codex Themes",
+      "type": "app",
+      "mode": "light",
+      "tags": [
+        "light",
+        "warm",
+        "ayu"
+      ],
+      "description": "Ayu Light adapted for Codex App with warm orange highlights and clean contrast.",
+      "preview": "themes/ayu-light/preview.svg",
+      "readme": "themes/ayu-light/README.md",
+      "source": "themes/ayu-light/theme.json",
+      "import": "themes/ayu-light/import.txt"
+    },
+    {
+      "name": "Catppuccin Latte",
+      "slug": "catppuccin-latte",
+      "author": "Catppuccin / Codex Themes",
+      "type": "app",
+      "mode": "light",
+      "tags": [
+        "light",
+        "pastel",
+        "latte"
+      ],
+      "description": "Catppuccin Latte adapted for Codex App with soft pastel accents and low glare.",
+      "preview": "themes/catppuccin-latte/preview.svg",
+      "readme": "themes/catppuccin-latte/README.md",
+      "source": "themes/catppuccin-latte/theme.json",
+      "import": "themes/catppuccin-latte/import.txt"
     },
     {
       "name": "Catppuccin Mocha",
@@ -87,6 +138,23 @@
       "import": "themes/everforest-dark/import.txt"
     },
     {
+      "name": "Everforest Light",
+      "slug": "everforest-light",
+      "author": "sainnhe / Codex Themes",
+      "type": "app",
+      "mode": "light",
+      "tags": [
+        "light",
+        "forest",
+        "muted"
+      ],
+      "description": "Everforest Light adapted for Codex App with muted greens and warm paper tones.",
+      "preview": "themes/everforest-light/preview.svg",
+      "readme": "themes/everforest-light/README.md",
+      "source": "themes/everforest-light/theme.json",
+      "import": "themes/everforest-light/import.txt"
+    },
+    {
       "name": "GitHub Dark",
       "slug": "github-dark",
       "author": "GitHub / Codex Themes",
@@ -136,6 +204,40 @@
       "readme": "themes/gruvbox-dark/README.md",
       "source": "themes/gruvbox-dark/theme.json",
       "import": "themes/gruvbox-dark/import.txt"
+    },
+    {
+      "name": "Gruvbox Light",
+      "slug": "gruvbox-light",
+      "author": "morhetz / Codex Themes",
+      "type": "app",
+      "mode": "light",
+      "tags": [
+        "light",
+        "warm",
+        "retro"
+      ],
+      "description": "Gruvbox Light adapted for Codex App with warm paper tones and strong contrast.",
+      "preview": "themes/gruvbox-light/preview.svg",
+      "readme": "themes/gruvbox-light/README.md",
+      "source": "themes/gruvbox-light/theme.json",
+      "import": "themes/gruvbox-light/import.txt"
+    },
+    {
+      "name": "Material Lighter",
+      "slug": "material-lighter",
+      "author": "material-theme / Codex Themes",
+      "type": "app",
+      "mode": "light",
+      "tags": [
+        "light",
+        "material",
+        "clean"
+      ],
+      "description": "Material Lighter adapted for Codex App with crisp surfaces and vivid purple accents.",
+      "preview": "themes/material-lighter/preview.svg",
+      "readme": "themes/material-lighter/README.md",
+      "source": "themes/material-lighter/theme.json",
+      "import": "themes/material-lighter/import.txt"
     },
     {
       "name": "Material Ocean",
@@ -257,6 +359,40 @@
       "import": "themes/rose-pine/import.txt"
     },
     {
+      "name": "Rosé Pine Dawn",
+      "slug": "rose-pine-dawn",
+      "author": "rose-pine / Codex Themes",
+      "type": "app",
+      "mode": "light",
+      "tags": [
+        "light",
+        "rose-pine",
+        "soft"
+      ],
+      "description": "Rosé Pine Dawn adapted for Codex App with warm cream surfaces and muted mauves.",
+      "preview": "themes/rose-pine-dawn/preview.svg",
+      "readme": "themes/rose-pine-dawn/README.md",
+      "source": "themes/rose-pine-dawn/theme.json",
+      "import": "themes/rose-pine-dawn/import.txt"
+    },
+    {
+      "name": "Solarized Dark",
+      "slug": "solarized-dark",
+      "author": "Ethan Schoonover / Codex Themes",
+      "type": "app",
+      "mode": "dark",
+      "tags": [
+        "dark",
+        "classic",
+        "solarized"
+      ],
+      "description": "Solarized Dark adapted for Codex App with balanced blue accents and restrained contrast.",
+      "preview": "themes/solarized-dark/preview.svg",
+      "readme": "themes/solarized-dark/README.md",
+      "source": "themes/solarized-dark/theme.json",
+      "import": "themes/solarized-dark/import.txt"
+    },
+    {
       "name": "Solarized Light",
       "slug": "solarized-light",
       "author": "Ethan Schoonover / Codex Themes",
@@ -272,6 +408,23 @@
       "readme": "themes/solarized-light/README.md",
       "source": "themes/solarized-light/theme.json",
       "import": "themes/solarized-light/import.txt"
+    },
+    {
+      "name": "Tokyo Day",
+      "slug": "tokyo-day",
+      "author": "enkia / Codex Themes",
+      "type": "app",
+      "mode": "light",
+      "tags": [
+        "light",
+        "blue",
+        "popular"
+      ],
+      "description": "Tokyo Day adapted for Codex App with cool blues and a soft cloudy background.",
+      "preview": "themes/tokyo-day/preview.svg",
+      "readme": "themes/tokyo-day/README.md",
+      "source": "themes/tokyo-day/theme.json",
+      "import": "themes/tokyo-day/import.txt"
     },
     {
       "name": "Tokyo Night",

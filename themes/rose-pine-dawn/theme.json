@@ -1,0 +1,27 @@
+{
+  "name": "Rosé Pine Dawn",
+  "slug": "rose-pine-dawn",
+  "author": "rose-pine / Codex Themes",
+  "type": "app",
+  "mode": "light",
+  "tags": ["light", "rose-pine", "soft"],
+  "description": "Rosé Pine Dawn adapted for Codex App with warm cream surfaces and muted mauves.",
+  "codeThemeId": "rose-pine",
+  "theme": {
+    "accent": "#d7827e",
+    "background": "#faf4ed",
+    "foreground": "#575279",
+    "surface": "#fffaf3",
+    "contrast": 18,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#56949f",
+      "diffRemoved": "#b4637a",
+      "skill": "#907aa9"
+    },
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

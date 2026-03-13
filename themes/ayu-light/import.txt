@@ -1,0 +1,1 @@
+codex-theme-v1:{"codeThemeId":"ayu","theme":{"accent":"#f29718","contrast":20,"fonts":{"ui":"SF Pro Text","code":"SF Mono"},"ink":"#5c6166","opaqueWindows":false,"semanticColors":{"diffAdded":"#6cbf43","diffRemoved":"#f07171","skill":"#399ee6"},"surface":"#ffffff"},"variant":"light"}

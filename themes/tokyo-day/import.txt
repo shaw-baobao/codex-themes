@@ -1,0 +1,1 @@
+codex-theme-v1:{"codeThemeId":"tokyo-night","theme":{"accent":"#2959aa","contrast":24,"fonts":{"ui":"SF Pro Text","code":"SF Mono"},"ink":"#343b59","opaqueWindows":false,"semanticColors":{"diffAdded":"#587539","diffRemoved":"#8c4351","skill":"#5a4a78"},"surface":"#dfe1e8"},"variant":"light"}

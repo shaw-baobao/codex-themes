@@ -1,0 +1,1 @@
+codex-theme-v1:{"codeThemeId":"gruvbox","theme":{"accent":"#d79921","contrast":34,"fonts":{"ui":"SF Pro Text","code":"SF Mono"},"ink":"#3c3836","opaqueWindows":false,"semanticColors":{"diffAdded":"#98971a","diffRemoved":"#cc241d","skill":"#b16286"},"surface":"#ebdbb2"},"variant":"light"}

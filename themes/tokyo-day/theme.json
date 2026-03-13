@@ -1,0 +1,27 @@
+{
+  "name": "Tokyo Day",
+  "slug": "tokyo-day",
+  "author": "enkia / Codex Themes",
+  "type": "app",
+  "mode": "light",
+  "tags": ["light", "blue", "popular"],
+  "description": "Tokyo Day adapted for Codex App with cool blues and a soft cloudy background.",
+  "codeThemeId": "tokyo-night",
+  "theme": {
+    "accent": "#2959aa",
+    "background": "#e6e7ed",
+    "foreground": "#343b59",
+    "surface": "#dfe1e8",
+    "contrast": 24,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#587539",
+      "diffRemoved": "#8c4351",
+      "skill": "#5a4a78"
+    },
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

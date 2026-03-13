@@ -1,0 +1,1 @@
+codex-theme-v1:{"codeThemeId":"absolutely","theme":{"accent":"#cc7d5e","contrast":45,"fonts":{"ui":"SF Pro Text","code":"SF Mono"},"ink":"#2d2d2b","opaqueWindows":false,"semanticColors":{"diffAdded":"#2f9e44","diffRemoved":"#e03131","skill":"#a75d44"},"surface":"#ffffff"},"variant":"light"}

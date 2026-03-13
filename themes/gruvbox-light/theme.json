@@ -1,0 +1,27 @@
+{
+  "name": "Gruvbox Light",
+  "slug": "gruvbox-light",
+  "author": "morhetz / Codex Themes",
+  "type": "app",
+  "mode": "light",
+  "tags": ["light", "warm", "retro"],
+  "description": "Gruvbox Light adapted for Codex App with warm paper tones and strong contrast.",
+  "codeThemeId": "gruvbox",
+  "theme": {
+    "accent": "#d79921",
+    "background": "#fbf1c7",
+    "foreground": "#3c3836",
+    "surface": "#ebdbb2",
+    "contrast": 34,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#98971a",
+      "diffRemoved": "#cc241d",
+      "skill": "#b16286"
+    },
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

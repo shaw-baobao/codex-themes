@@ -1,0 +1,27 @@
+{
+  "name": "Solarized Dark",
+  "slug": "solarized-dark",
+  "author": "Ethan Schoonover / Codex Themes",
+  "type": "app",
+  "mode": "dark",
+  "tags": ["dark", "classic", "solarized"],
+  "description": "Solarized Dark adapted for Codex App with balanced blue accents and restrained contrast.",
+  "codeThemeId": "solarized",
+  "theme": {
+    "accent": "#268bd2",
+    "background": "#002b36",
+    "foreground": "#839496",
+    "surface": "#073642",
+    "contrast": 36,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#859900",
+      "diffRemoved": "#dc322f",
+      "skill": "#6c71c4"
+    },
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Absolutely Light",
+  "slug": "absolutely-light",
+  "author": "OpenAI / Codex Themes",
+  "type": "app",
+  "mode": "light",
+  "tags": ["light", "neutral", "default"],
+  "description": "Absolutely Light adapted for Codex App with warm neutrals and soft contrast.",
+  "codeThemeId": "absolutely",
+  "theme": {
+    "accent": "#cc7d5e",
+    "background": "#f9f9f7",
+    "foreground": "#2d2d2b",
+    "surface": "#ffffff",
+    "contrast": 45,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#2f9e44",
+      "diffRemoved": "#e03131",
+      "skill": "#a75d44"
+    },
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Catppuccin Latte",
+  "slug": "catppuccin-latte",
+  "author": "Catppuccin / Codex Themes",
+  "type": "app",
+  "mode": "light",
+  "tags": ["light", "pastel", "latte"],
+  "description": "Catppuccin Latte adapted for Codex App with soft pastel accents and low glare.",
+  "codeThemeId": "catppuccin",
+  "theme": {
+    "accent": "#1e66f5",
+    "background": "#eff1f5",
+    "foreground": "#4c4f69",
+    "surface": "#e6e9ef",
+    "contrast": 22,
+    "opaqueWindows": false,
+    "semanticColors": {
+      "diffAdded": "#40a02b",
+      "diffRemoved": "#d20f39",
+      "skill": "#8839ef"
+    },
+    "fonts": {
+      "ui": "SF Pro Text",
+      "code": "SF Mono"
+    }
+  }
+}

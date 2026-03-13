@@ -110,14 +110,20 @@ npm run build
 <!-- themes:start -->
 | 主题 | 模式 | 预览 | 导入 | 标签 |
 | --- | --- | --- | --- | --- |
+| [Absolutely Light](./themes/absolutely-light/README.md) | 浅色 | ![Absolutely Light](./themes/absolutely-light/preview.svg) | [import.txt](./themes/absolutely-light/import.txt) | light, neutral, default |
 | [Ayu Dark](./themes/ayu-dark/README.md) | 深色 | ![Ayu Dark](./themes/ayu-dark/preview.svg) | [import.txt](./themes/ayu-dark/import.txt) | dark, warm, ayu |
+| [Ayu Light](./themes/ayu-light/README.md) | 浅色 | ![Ayu Light](./themes/ayu-light/preview.svg) | [import.txt](./themes/ayu-light/import.txt) | light, warm, ayu |
+| [Catppuccin Latte](./themes/catppuccin-latte/README.md) | 浅色 | ![Catppuccin Latte](./themes/catppuccin-latte/preview.svg) | [import.txt](./themes/catppuccin-latte/import.txt) | light, pastel, latte |
 | [Catppuccin Mocha](./themes/catppuccin-mocha/README.md) | 深色 | ![Catppuccin Mocha](./themes/catppuccin-mocha/preview.svg) | [import.txt](./themes/catppuccin-mocha/import.txt) | dark, pastel, mocha |
 | [Codex Dark](./themes/codex-dark/README.md) | 深色 | ![Codex Dark](./themes/codex-dark/preview.svg) | [import.txt](./themes/codex-dark/import.txt) | dark, default, codex |
 | [Dracula](./themes/dracula/README.md) | 深色 | ![Dracula](./themes/dracula/preview.svg) | [import.txt](./themes/dracula/import.txt) | dark, purple, neon |
 | [Everforest Dark](./themes/everforest-dark/README.md) | 深色 | ![Everforest Dark](./themes/everforest-dark/preview.svg) | [import.txt](./themes/everforest-dark/import.txt) | dark, forest, muted |
+| [Everforest Light](./themes/everforest-light/README.md) | 浅色 | ![Everforest Light](./themes/everforest-light/preview.svg) | [import.txt](./themes/everforest-light/import.txt) | light, forest, muted |
 | [GitHub Dark](./themes/github-dark/README.md) | 深色 | ![GitHub Dark](./themes/github-dark/preview.svg) | [import.txt](./themes/github-dark/import.txt) | dark, github, clean |
 | [GitHub Light](./themes/github-light/README.md) | 浅色 | ![GitHub Light](./themes/github-light/preview.svg) | [import.txt](./themes/github-light/import.txt) | light, clean, github |
 | [Gruvbox Dark](./themes/gruvbox-dark/README.md) | 深色 | ![Gruvbox Dark](./themes/gruvbox-dark/preview.svg) | [import.txt](./themes/gruvbox-dark/import.txt) | dark, warm, retro |
+| [Gruvbox Light](./themes/gruvbox-light/README.md) | 浅色 | ![Gruvbox Light](./themes/gruvbox-light/preview.svg) | [import.txt](./themes/gruvbox-light/import.txt) | light, warm, retro |
+| [Material Lighter](./themes/material-lighter/README.md) | 浅色 | ![Material Lighter](./themes/material-lighter/preview.svg) | [import.txt](./themes/material-lighter/import.txt) | light, material, clean |
 | [Material Ocean](./themes/material-ocean/README.md) | 深色 | ![Material Ocean](./themes/material-ocean/preview.svg) | [import.txt](./themes/material-ocean/import.txt) | dark, material, ocean |
 | [Monokai](./themes/monokai/README.md) | 深色 | ![Monokai](./themes/monokai/preview.svg) | [import.txt](./themes/monokai/import.txt) | dark, classic, monokai |
 | [Night Owl](./themes/night-owl/README.md) | 深色 | ![Night Owl](./themes/night-owl/preview.svg) | [import.txt](./themes/night-owl/import.txt) | dark, owl, blue |
@@ -125,7 +131,10 @@ npm run build
 | [One Dark](./themes/one-dark/README.md) | 深色 | ![One Dark](./themes/one-dark/preview.svg) | [import.txt](./themes/one-dark/import.txt) | dark, modern, balanced |
 | [Poimandres](./themes/poimandres/README.md) | 深色 | ![Poimandres](./themes/poimandres/preview.svg) | [import.txt](./themes/poimandres/import.txt) | dark, poimandres, soft |
 | [Rosé Pine](./themes/rose-pine/README.md) | 深色 | ![Rosé Pine](./themes/rose-pine/preview.svg) | [import.txt](./themes/rose-pine/import.txt) | dark, rose-pine, soft |
+| [Rosé Pine Dawn](./themes/rose-pine-dawn/README.md) | 浅色 | ![Rosé Pine Dawn](./themes/rose-pine-dawn/preview.svg) | [import.txt](./themes/rose-pine-dawn/import.txt) | light, rose-pine, soft |
+| [Solarized Dark](./themes/solarized-dark/README.md) | 深色 | ![Solarized Dark](./themes/solarized-dark/preview.svg) | [import.txt](./themes/solarized-dark/import.txt) | dark, classic, solarized |
 | [Solarized Light](./themes/solarized-light/README.md) | 浅色 | ![Solarized Light](./themes/solarized-light/preview.svg) | [import.txt](./themes/solarized-light/import.txt) | light, classic, muted |
+| [Tokyo Day](./themes/tokyo-day/README.md) | 浅色 | ![Tokyo Day](./themes/tokyo-day/preview.svg) | [import.txt](./themes/tokyo-day/import.txt) | light, blue, popular |
 | [Tokyo Night](./themes/tokyo-night/README.md) | 深色 | ![Tokyo Night](./themes/tokyo-night/preview.svg) | [import.txt](./themes/tokyo-night/import.txt) | dark, blue, popular |
 <!-- themes:end -->
 
